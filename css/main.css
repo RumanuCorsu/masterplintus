@@ -1,0 +1,797 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway&display=swap');
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+@import url('https://fonts.googleapis.com/css?family=Caveat:700&display=swap');
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input[type="number"]:hover,
+input[type="number"]:focus {
+  -moz-appearance: number-input;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+*
+{
+    font-family: 'Lato', sans-serif;
+}
+body
+{
+    background-color: #f2f2f2;
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+    margin-top: 70px;
+
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-family: "RaleWay";
+    font-weight: 300;
+    color: #333;
+}
+
+.titleE
+{
+     font-family: "RaleWay";
+    font-weight: 300;
+    color: #333;
+}
+p
+{
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+.centered 
+{
+    text-align: center;
+}
+a
+{
+    color: #f85c37;
+}
+a:hover,a:focus
+{
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+hr
+{
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+.navbar
+{
+    font-weight: 800;
+    font-size: 14px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-inverse
+{
+    background: #2d2d2d;
+    border-color: #2d2d2d;
+     
+}
+.navbar-inverse .navbar-nav > .active > a
+{
+    background-color: rgb(85, 85, 85);
+}
+
+.navbar-inverse .navbar-brand
+{
+    color: #999;
+    font-weight: bolder;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+#headerwrap
+{
+    background: url(../img/onBlock2.jpg) no-repeat center;
+    margin-top: -10px;
+    padding-top: 20px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
+    background-size: 100%;
+    
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+#headerwrap h1
+{
+    font-size: 600%;
+    margin-top: 100px;
+    font-family: 'Caveat', sans-serif;
+    font-weight: 700;
+    color: black;
+    
+}
+#headerwrap h2
+{
+    color: white;
+    font-size: 250%;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgb(61, 60, 60);
+}
+
+.buddy
+{
+    text-align: center;
+    margin-top: -10%;
+    font-size: 150%;
+    color:white;
+    font-family: 'Lato', sans-serif;
+    background-color: black;
+    font-weight: 700;
+}
+.content
+{
+    margin-top: 50px;
+}
+
+.w
+{
+    padding-top: 35px;
+
+}
+.w h4
+{
+    font-size: 25px;
+}
+.c
+{
+    position: relative;
+    z-index: 1;
+    margin-top: 10px;
+    margin-left: -100px;
+    font-size: 30px;
+}
+
+#lg
+{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    
+    text-align: center;
+    background-color: rgb(211, 211, 211);
+}
+
+
+
+#lg >h4>img
+{
+    margin-top: 20px;
+}
+
+#f
+{
+    background-color: #2d2d2d;
+    padding-top: 20px;
+    padding-bottom: 54px;
+
+
+}
+#f h3
+{
+    color: white;
+}
+
+.tovar
+{
+    margin-left: -40px;
+       
+}
+
+.tovar ul, li
+{
+ list-style: none;
+}
+.tovar ul
+{
+    margin: 0;
+    padding: 0;
+    
+    
+}
+.tovar li
+{
+    margin: 0 0 2px 0;
+    padding: 0;
+    
+}
+.tovar > li > a
+{
+    color: #f1efef;
+    background: rgb(46, 46, 46);
+    font-weight: 700;
+    height: 50px;
+    display: block;
+    width: 100%;
+    line-height: 60px;
+   
+    
+    
+}
+.tovar > li.slide > a,
+.tovar >li.active > a
+{
+ background: blanchedalmond;
+ color: rgb(0, 0, 0);
+}
+
+.tovar> li > ul
+{
+    display: none;
+    width: 100%;
+    background: #fff;
+    padding:10px 0;
+
+}
+.tovar >li.active>ul
+{
+    display: block;
+}
+.tovar>li>ul>li
+{
+    padding: 5px 30px;
+    background: rgb(150, 150, 150);
+    display: block;
+    color: white;
+    
+}
+.tovar>li>ul>li:hover{
+    background-color: #131212;
+    cursor: pointer;    
+}
+
+.formcall {
+    margin-top: 30px;
+    width: auto;
+    float: right;
+    margin-right: 30px;
+}
+  .onsearch {
+    width: 250px;
+    height: 42px;
+    padding-left: 15px;
+    border-radius: 42px;
+    border: 2px solid #324b4e;
+    background: #F9F0DA;
+    outline: none;
+    position: relative;
+    transition: .3s linear;
+    font-size: 15px;
+
+  }
+  .onsearch:focus {
+    width: 300px;
+  }
+  .onbtn {
+    margin-top: 55px;
+    width: 42px;
+    height: 42px;
+    background: none;
+    border: none;
+    position: absolute;
+    top: -2px;
+    right: 0;
+  }
+  .onbtn:before{
+    content: "\f002";
+    font-family: FontAwesome;
+    color: #324b4e;
+  }
+
+.cartdrop
+{   
+    position: fixed;
+    display: none;
+    width: auto;
+    max-width: 50%;
+    height: auto;
+    background-color: white;
+    border: 1px black solid;
+    border-radius: 15px;
+    padding: 5px;
+    font-size: 10px;
+}
+.buttoncart
+{
+    border-radius: 10px;    
+}
+
+.how_many
+{
+    position: fixed;
+    z-index: 3;
+    display: none;
+    top:50%;
+    left:45%;
+    right: 35%;
+    background-color: white;
+    max-width: 300px;
+    color: black;
+    width: auto;
+    height: auto;
+}
+
+.how_manyorac
+{
+    position: fixed;
+    z-index: 3;
+    display: none;
+    top:50%;
+    left:45%;
+    right: 35%;
+    background-color: white;
+    max-width: 300px;
+    color: black;
+    width: auto;
+    height: auto;
+}
+
+.opa
+{
+    text-align: center;
+    width: 70%;
+    margin-top: 3%;
+    margin-bottom:3%;
+    margin-left:15%;
+    font-size: 100%;
+    color: black;
+
+
+}
+#changesmenu
+{   
+    position: fixed;
+    z-index: 3;
+    display: none;
+    top:50%;
+    left:45%;
+    right: 35%;
+    background-color: white;
+    max-width: 300px;
+    color: black;
+    width: auto;
+    height: auto;
+    
+}
+.inputchange
+{
+    margin-left:25%;
+    max-width: 50%;
+    text-align:center;
+}
+.inputchange2
+{
+    margin-left:25%;
+    max-width: 50%;
+    text-align:center;
+}
+.changebtn
+{
+     background-color: rgb(204, 69, 0);
+    padding:2%;
+    border:1px #000012 solid;
+    color: white;
+    margin-bottom:1%;
+    margin-left:35%;
+    margin-top:5%;
+    
+}
+.changebtn2
+{
+     background-color: rgb(204, 69, 0);
+    padding:2%;
+    border:1px #000012 solid;
+    color: white;
+    margin-bottom:1%;
+    margin-left:35%;
+    margin-top:5%;
+    
+}
+
+#afterzakaz 
+{
+    display: none;
+    font-size: 100%;
+    background-color: #333333;
+    color: white;
+    border: 1px black solid;
+    margin: 10%;
+    text-align: center;
+    padding: 10%;
+}
+#afterzakaz h1, h2
+{
+    color: white;
+    font-weight:700;
+}
+
+.to
+{
+    max-width: 50%;
+}
+.for_id_on_product
+{
+    background-color: rgb(204, 69, 0);
+    padding:2%;
+    border:1px #000012 solid;
+    color: white;
+    margin-bottom:1%;
+}
+.for_id_on_productto
+{
+    background-color: rgb(204, 69, 0);
+    padding:2%;
+    border:1px #000012 solid;
+    color: white;
+    margin-bottom:1%;
+}
+.for_id_on_productorac
+{
+    background-color: rgb(204, 69, 0);
+    padding:2%;
+    border:1px #000012 solid;
+    color: white;
+    margin-bottom:1%;
+}
+.cartin
+{
+    width: 50%;
+    height: auto;
+    margin-left:30%;
+    background-color: white;
+    font-weight: 700;
+    padding:2%;
+}
+.titl
+{
+    font-size: 100%;
+}
+.opa>div>img
+{
+    width: 50%;
+}
+.opa>div>button
+{
+    background-color: #999;
+    border: 1px black solid;
+    margin-right: 1%;
+    font-weight: 500;
+    width: auto;
+    color: white;
+    padding:1%;
+
+}
+.opa>div>button:hover
+{
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.8);
+}
+.opa>.ver
+{
+    margin-bottom:4%;
+}
+.itogi
+{
+    margin-top:15%;
+}
+#selectedzakaz
+{
+    border: 1px black solid;
+    padding: 4px;
+    color: black;
+    text-decoration: none; 
+    background-color: #999;
+    margin-left: 40%;
+    color:white; padding:2%;
+}
+#selectedzakaz:hover
+{
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.8);
+}
+
+
+.modal-wrapper {
+    position:fixed;
+    display:none;
+    width:100%;
+    height:100%;
+    justify-content:center;
+    align-items:center;
+    background:rgba(0,0,0,.7);
+    z-index:2;
+}
+.closeX
+{
+    float: right;
+    color: black;
+    margin-right: 5px; 
+    font-size: 120%;
+}
+.closeX2
+{
+    float: right;
+    color: black;
+    margin-right: 5px; 
+    font-size: 120%;
+}
+#formazakaza
+{
+    margin-top: 20px;
+    background-color: white;
+    width: 700px;
+    margin-left:20%;
+}
+#formzakaz
+{
+    margin-top: 30px;
+    font-weight: 700;
+}
+#formzakaz input[type="text"], input[type="textarea"]
+{
+    border: 2px black solid;
+    font-weight: 500;
+
+}
+.polafill
+{
+    font-size: 150%;
+    color: rgb(255, 54, 0);
+    font-weight: 700;
+}
+.aboutcomment
+{
+    margin-top: 20px;
+    margin-left:20px;
+}
+#btnfrm
+{
+    margin-top: 10px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    background-color: #999;
+    color: white;
+    border: 1px white solid;
+}
+.oninput
+{
+    margin-bottom: 20px;
+     margin-right:10%;
+      margin-left: 10%;
+}
+.oncomment
+{
+    height: 150px; 
+    width: 300px;
+     margin-left:15px; 
+}
+.dostavwork
+{
+    margin-left: 80px;
+}
+#changesmenuS
+{
+     position: fixed;
+    z-index: 3;
+    display: none;
+    top:50%;
+    left:45%;
+    right: 35%;
+    background-color: white;
+    max-width: 300px;
+    color: black;
+    width: auto;
+    height: auto;
+}
+.afterclickbuy
+{
+  position: fixed;
+    z-index: 3;
+    display: none;
+    top:50%;
+    left:45%;
+    right: 35%;
+    background-color: white;
+    max-width: 300px;
+    color: black;
+    width: auto;
+    height: auto;
+}
+.afterclickbuy>a
+{
+    text-decoration:none;
+    padding: 5%;
+}
+.btnclosenow2
+{
+    background-color: rgb(204, 69, 0);
+    padding:2%;
+    border:1px #000012 solid;
+    color: white;
+    margin-bottom:1%;
+    
+    margin-top:5%;
+}
+
+.spisok
+{
+   position: fixed;
+   padding: 5px;
+    z-index: 3;
+    display: none;
+    top:50%;
+    left:45%;
+    right: 35%;
+    background-color: white;
+    max-width: 300px;
+    color: black;
+    width: auto;
+    height: auto;
+}
+.changebtnprof{
+background-color: rgb(204, 69, 0);
+    padding:2%;
+    border:1px #000012 solid;
+    color: white;
+    margin-bottom:1%;
+    
+    margin-top:5%;
+}
+.titlemainleave
+{
+    display: none;
+}
+
+.statesclass
+{
+    margin-top: 2%;
+    margin-left: 15%;
+    width: 80%;
+    color: white;
+    background-color: rgb(46, 46, 46);
+    padding: 5%;
+    margin-bottom: 10%;
+
+}
+
+.statesclass>h1
+{
+    
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.solostatestyle>div
+{
+    text-align: justify; 
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+}
+.solostatestyle>h2,h1,div>h2
+{
+    font-family: 'Lato', sans-serif;
+    color: black;
+    font-weight: 500;
+}
+.solostatestyle>a
+{
+    float: right;
+    color: rgb(204, 69, 0);
+    font-size: 20px;
+}
+.solostatestyle>a:hover
+{
+    color: black;
+}
+.solostatestyle>img
+{
+    width: 40%;
+    position: relative;
+    left: 30%;
+}
+
+.mashtabstate
+{
+    margin-top: 15%;
+}
+
+.acsestext
+{
+    color: black;
+    font-size: 30px;
+    margin-top: 5px;
+}
+.namecateg
+{
+    font-family: 'Lato', sans-serif;
+}
+.descriptioncateg
+{
+    font-size:18px;
+    font-family:Lato,sans-serif; 
+    text-align:justify;
+}
+.menunav
+{
+    text-decoration:none;
+    color:white;
+    display: block;
+}
+@media (max-width: 1024px) and (min-width: 470px) {  /* для разрешения экрана от 470 до 930 пикселей */
+  .cartin{width: 100%; margin-left:0%;}
+  .how_many{left: 30%; right: 0;}
+  .how_manyorac{left: 30%; right: 0;}
+  #formazakaza{width: 100%; margin-left:0%;}
+   .oninput{margin-left:0%;}
+   .oncomment{margin-left:0%; height: 200px; width: 200px;}
+   #changesmenu{left: 30%; right: 5%;}
+   .dostavwork{margin-left:0%;}
+   #changesmenuS{left: 30%; right: 5%;}
+   .afterclickbuy{left: 30%; right: 5%;}
+   .spisok{left: 30%; right: 5%;}
+   .titlemainleave{display: block}
+   .mashtabstate{margin-top: 20%;}
+   .formcall {
+    margin-top: 30px;
+    width: 90%;
+    float: right;
+}
+   .navbar-brand{display: none;}
+  
+}
+@media (max-width: 469px) { /* если максимальное разрешение экрана составит 469 пикселей */
+    .cartin{width: 100%; margin-left:0%;}
+    .how_many{left: 10%; right: 0;}
+    .how_manyorac{left: 30%; right: 0;}
+    #formazakaza{width: 100%; margin-left:0%;}
+    .oninput{margin-left:0%;}
+    .oncomment{margin-left:0%;  height: 200px; width: 200px;}
+    #changesmenu{left: 10%; right: 5%;}
+     .dostavwork{margin-left:0%;}
+     #changesmenuS{left: 30%; right: 5%;}
+     .afterclickbuy{left: 30%; right: 5%;}
+     .spisok{left: 30%; right: 5%;}
+     .titlemainleave{display: block}
+     .mashtabstate{margin-top: 20%;}
+        .formcall {
+    margin-top: 30px;
+    width: 90%;
+    float: right;
+    }
+    .descriptioncateg
+    {
+        display: none;
+    }
+}

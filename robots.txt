@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /ThisCart.php
+Disallow: /Order.php
+Disallow: /Sproduct.php
+Allow: /Sproduct.php?id=
+Disallow: /Products2.php
+Allow: /Products2.php?id_articles=

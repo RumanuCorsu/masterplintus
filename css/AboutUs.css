@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway&display=swap');
+@import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+
+#head
+{
+    font-size: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.rec
+{   
+    background-size: 5px 10px;
+    background-color: rgb(124, 122, 122);
+    color: aliceblue;
+    border-radius: 20px;
+}
+.tec
+{
+margin-top: 30px;
+position: relative;
+}
+.lec
+{
+    margin-left: 150px;
+}
+.dialog
+{
+    position: absolute;	
+	width: auto;
+	height: auto;
+	border: 1px black solid;
+	box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.3);
+    top:-30%;
+    z-index: 1;
+}
+.form1
+{
+	position: relative;
+    padding-left: 7%;
+}
+#close
+{
+    position: relative;
+    float: right;
+    margin-top: -10px;
+ 	border-radius: 20px;
+ 	font-size: 60%;
+ 	background-color: rgb(124, 122, 122);
+ 	color: white;
+}
+input[type=text] {
+
+height: 30px;
+font-size: 100%;
+
+}
+
+@media (max-width: 930px) and (min-width: 470px) {
+   
+
+}
+@media (max-width: 469px) {
+    
+}

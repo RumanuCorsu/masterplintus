@@ -1,0 +1,30 @@
+.back
+{
+	background-image: url(../img/onBlock.jpg);
+}
+.r
+{
+	font-family: 'Lato', sans-serif;
+	font-weight: 600;
+}
+h1.r
+{
+	position: relative;
+	background-color: rgb(61, 60, 60);
+	color: white;
+	margin-left: 10%;
+	margin-right: 10%;
+	
+}
+.textR
+{
+	text-align: left;
+	font-size: 100%;
+	font-weight: 700;
+	color: white;
+	font-family: 'Lato', sans-serif;
+	margin-left: 3%;
+	margin-right: 2%;
+	background: rgba(61, 60, 60,0.6);
+	padding: 20px;
+}
